@@ -183,10 +183,14 @@ p{
     text-align: center;
 }
 
-
+@media only screen and (max-width:1440px) {
+    .container__imag{margin: 0px 100px}
+    .container__imag{width: auto;}
+}
 @media only screen and (max-width:1024px) {
       .card{margin:auto;}
       .container__imag-derecha{margin: 0px 80px;}
+     
 }
 
 @media only screen and (max-width:768px) {
@@ -201,6 +205,7 @@ p{
     .container__imag{margin: auto;}
 }
 @media only screen and (max-width:320px) {
-  .container__imag{margin:auto;}
+  .container__imag{margin:auto; width: 250px;}
   .container__imag-derecha{margin:auto;}
+  .img__ancho{width: 275px;}
 }
