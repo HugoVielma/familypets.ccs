@@ -120,7 +120,11 @@ p{
 }
 .container__footer{
     display: flex;
-    text-align: center;
+    text-align: center; 
+}
+.sub__titulo{
+        text-align: center;
+        font-family:'Playfair Display', serif;
 }
 /*perros*/
 .titulo__perros{
@@ -173,9 +177,8 @@ p{
     max-width: 100%;
     height: 50%;
 }
-
-.sub__titulo{
-    text-align: center;
+.carousel-inner{
+    overflow: hidden;
 }
 /*Ofertas*/
 .titulo__principal-centro{
@@ -184,28 +187,35 @@ p{
 }
 
 @media only screen and (max-width:1440px) {
-    .container__imag{margin: 0px 100px}
+    .container__imag{margin: 0px 100px;}
     .container__imag{width: auto;}
 }
 @media only screen and (max-width:1024px) {
       .card{margin:auto;}
       .container__imag-derecha{margin: 0px 80px;}
-     
+      .container__imag{margin: 0px 20px; display:flex;}
+      .img__izquierda{width: 120px; height: 35px;}
 }
 
 @media only screen and (max-width:768px) {
    .img__derecha{width: 60px;}
-   .container__imag-derecha{margin: 0px 50px}
+   .container__imag-derecha{margin: 0px 50px;}
    .img__izquierda{width: 80px;}
    .container__imag{margin: 0px 50px;}
    .header.main__background{width: 100%;}
+   .container__card{width:100%;}
+}
+@media only screen and (max-width:425px){
+    .container__imag-derecha{width: 320px;}
 }
 @media only screen and (max-width:375px){
-    .container__imag-derecha{margin:auto}
+    .container__imag-derecha{margin:auto;}
     .container__imag{margin: auto;}
 }
 @media only screen and (max-width:320px) {
   .container__imag{margin:auto; width: 250px;}
-  .container__imag-derecha{margin:auto;}
+  .container__imag-derecha{margin:auto; width: 250px; display: flex;}
   .img__ancho{width: 275px;}
+  .main__img{width: 250px;}
+  
 }
