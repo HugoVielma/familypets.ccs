@@ -204,18 +204,21 @@ p{
    .container__imag{margin: 0px 50px;}
    .header.main__background{width: 100%;}
    .container__card{width:100%;}
+   .img__ancho{width: 300px;}
 }
 @media only screen and (max-width:425px){
     .container__imag-derecha{width: 320px;}
+    .img__ancho{width: 300px;}
 }
 @media only screen and (max-width:375px){
     .container__imag-derecha{margin:auto;}
     .container__imag{margin: auto;}
+    .img__ancho{width: 275px;}
 }
 @media only screen and (max-width:320px) {
   .container__imag{margin:auto; width: 250px;}
   .container__imag-derecha{margin:auto; width: 250px; display: flex;}
   .img__ancho{width: 275px;}
   .main__img{width: 250px;}
-  
+  .img__pez{width: 250px;}
 }
