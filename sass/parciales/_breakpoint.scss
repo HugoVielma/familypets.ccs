@@ -27,13 +27,14 @@
     .container__imag-derecha{width: 320px;}
     .img__ancho{width: 300px;}
     .img__card-centro{padding-left: 3.90rem;}
-    .imag__card-centro{padding-left: 10rem;}
+    .imag__card-centro{padding-left: 3rem;}
 }
 @media only screen and (max-width:375px){
    .container__imag-derecha{margin:auto;}
     .container__imag{margin:auto;}
     .img__ancho{width: 275px;}
     .img__card-centro{padding-left: 3rem;}
+    .imag__card-centro{padding-left: 1.5rem;}
 }
 @media only screen and (max-width:320px) {
   .container__imag{margin: 0px 70px 0px 0px; width:200px;}

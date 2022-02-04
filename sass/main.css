@@ -272,7 +272,7 @@ p {
     padding-left: 3.90rem;
   }
   .imag__card-centro {
-    padding-left: 8rem;
+    padding-left: 3rem;
   }
 }
 
@@ -288,6 +288,9 @@ p {
   }
   .img__card-centro {
     padding-left: 3rem;
+  }
+  .imag__card-centro {
+    padding-left: 1.5rem;
   }
 }
 
