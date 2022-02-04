@@ -1,0 +1,112 @@
+@import "./vars";
+.clearfix{
+    padding: 30px 10px 20px 30px;
+   }
+.carousel__inde{
+    max-width: 100%;
+    overflow: hidden;
+  }
+  .container__carousel{
+    height: 150px;
+    width: 400px;
+  }
+    .container__img-marco{
+        max-width: 100%;
+       margin: 0px 70px 15px;
+    }
+
+p{
+    font-family: $font-parrafo;
+}
+.col{
+    display: grid;
+    justify-content: center;
+}
+.titulo__descripcion{
+    padding: 30px 50px;
+    font-family: $titulo-descrip;
+}
+.enlace__descripcion{
+   text-align: $texto-centrado;
+    text-decoration: none;
+    color: black;
+    font-family: $enlace-descrip;
+}
+.enlace__descripcion:hover{
+    color: $color-hover;
+}
+.titulo{
+    margin-top: 15px;
+    width: 100%;
+}
+.titulo__final{
+    margin: 60px 15px 10px;
+    text-align: $texto-centrado;
+    font-family: $titulo-descrip;
+}
+.card-title{
+    background-color:  $color-hover;
+    text-align: center;
+    color: $color-nav;
+    font-family: $titulo-descrip;
+}
+.titulo__pago{
+    text-align: $texto-centrado;
+     font-family: $titulo-descrip;
+     font-weight: 700;
+     max-width: 100%;
+     &-dos{
+        margin-left: 90px;
+        font-family: $titulo-descrip;
+        font-weight: 700;
+        max-width: 100%;
+    }
+ }
+.container__imag{
+   margin: auto;
+   &-derecha{
+    margin: 0px 160px;
+} 
+
+}
+/*Tienda De Perros*/
+.parrafo__main-top{
+    margin: 30px 0px;
+}
+.titulo__main-tres{
+    margin-top: 60px;
+    font-family: $titulo-descrip;
+}
+.container-fluid__fila{
+    margin: 60px;
+}
+.img__card{
+    margin-top: 50%;
+  
+  &-ancho{
+      width: 700px;
+  }
+  }
+  .titulo__productos-dos{
+      font-family: $titulo-descrip;
+  }
+  /*gato*/
+.main__img{
+    width: 300px;
+}
+.vendidos{
+    width: 100%;
+}
+/*pez*/
+.contenedor__carousel{
+    max-width: 100%;
+    height: 50%;
+}
+.carousel-inner{
+    overflow: hidden;
+}
+/*Ofertas*/
+.titulo__principal-centro{
+    font-family:$titulo-descrip;
+    text-align: $texto-centrado;
+}

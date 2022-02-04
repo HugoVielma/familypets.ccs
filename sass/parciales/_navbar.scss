@@ -1,0 +1,25 @@
+@import "./vars";
+.navbar-nav{
+    color: $color-nav;
+   margin: auto;
+}
+.nav-link{
+    color: $color-nav;
+    font-family: $enlace-descrip;
+   font-weight: 800;
+   font-size: large;
+}
+.nav-item{
+    padding: 0px 30px;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: $color-nav;
+}
+.nav-item:hover{
+    background-color: hsla(0,0%,100%,.3);
+    font-weight: bold;
+}
+.nav__background{
+    background-color: $color-hover;
+    width: 100%;
+}

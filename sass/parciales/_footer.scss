@@ -1,0 +1,13 @@
+@import "./vars";
+.container__footer{
+    display: flex;
+    text-align: $texto-centrado; 
+}
+.sub__titulo{
+        text-align: $texto-centrado;
+        font-family: $titulo-descrip;
+}
+.pie{
+    background-color: $color-hover;
+    color: $color-nav;
+}
